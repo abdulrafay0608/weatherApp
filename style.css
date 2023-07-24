@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+    background-color: rgb(250, 229, 183);
+    font-family: sans-serif;
+
+}
+
+.mian_container { 
+    background-image: linear-gradient( rgb(243, 183, 30), rgb(245, 215, 149),rgb(245, 215, 149),rgb(245, 215, 149),rgb(243, 183, 30));
+    margin-block: 20px;
+    padding: 25px;
+    text-align: center;
+    border: 5px solid white;
+    color: white;
+    min-height: 500px; 
+    width: 380px;
+    border-radius: 30px;
+
+}
+
+
+.weather_input {
+    width: 100%;
+
+}
+
+.weather_input input {
+    width: 84%;
+    font-size: 18px;
+    padding: 15px;
+    background-color: transparent;
+    border-bottom: 2px solid white !important;
+    border: none;
+    outline: none;
+
+}
+
+.weather_input input::placeholder {
+    font-size: 18px;
+ 
+}
+
+.fa-solid {
+    background-color: white;
+    width: 14%;
+    border-radius: 100%;
+    padding: 16px;
+    border: none;
+    outline: none;
+
+}
+
+.fa-solid:hover {
+    color: white;
+    background-color: #6e6666;
+
+}
+
+.temperature_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.temperature {
+   color: #343030;
+    font-size: 60px;
+    font-weight: 700;
+
+}
+
+.temperature sup {
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+#country {
+    font-size: 18px;
+    color: #343030;
+
+}
+
+.description {
+    color: #343030;
+    text-transform: capitalize;
+    font-size: 18   px;
+
+}
+
+.temperature_container img {
+    height: 160px;
+    width: 160px;
+
+}
+
+.card1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient( rgb(243, 183, 30),  rgb(237, 169, 43));
+    border: 2px solid wheat;
+    height: 68px;
+    width: 100%;
+    margin: 8px 0px;  
+    border-radius: 10px;
+
+}
+
+.card_part {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.card_part img {
+    margin-right: 15px;
+
+}
